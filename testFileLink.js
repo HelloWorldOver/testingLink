@@ -1,1 +1,3 @@
-document.body.style.color = "blue";
+function d() {
+  document.body.style.color = "blue";
+}
