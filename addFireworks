@@ -1,4 +1,4 @@
-function(){
+document.body.onload = function() {
 var canvas = document.createElement("canvas");
 canvas.setAttribute("class", "fireworks");
 document.body.prepend(canvas);
@@ -511,4 +511,4 @@ var fireworks=(function(){
     boom:animateParticules
   }
 
-})();}
+})();};
